@@ -1,0 +1,126 @@
+.page-centered {
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-family: sans-serif;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.container-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  width: 300px;
+}
+.login-h1 {
+  font-weight: 100;
+  font-size: 1.8em;
+  font-weight: 100;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+input,
+textarea,
+button,
+button:focus {
+  outline: none;
+  box-shadow: none !important;
+  border-radius: 20px;
+}
+.logo {
+  /*
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  color: white;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 30px;
+  */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 100px;
+}
+.logo p {
+  margin-top: 20px;
+  text-align: center;
+  transform: translate(-1%, -50%);
+  -ms-transform: translateX(-1%) translateY(-50%);
+  -webkit-transform: translate(-1%, -50%);
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.form-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.form-input {
+  width: 100%;
+  font-size: 0.85em;
+  font-weight: 100;
+  border-radius: 0px;
+  padding: 5px 20px;
+}
+
+.form-submit {
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #928dab,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #928dab,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: none;
+  font-weight: 100;
+  font-size: 1em;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.form-submit:hover {
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #928dab,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #928dab,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 765px) {
+  .container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    width: 50%;
+  }
+}
